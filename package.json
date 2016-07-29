@@ -1,12 +1,12 @@
 {
   "devDependencies": {
-    "babel-loader": "^6.1.0",
-    "babel-preset-es2015": "^6.1.18",
-    "babel-polyfill": "^6.3.14",
-
-    "webpack": "^1.12.6",
-    "webpack-dev-server": "^1.12.1",
-    "copy-webpack-plugin": "^0.2.0"
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-es2015-webpack": "^6.4.0",
+    "copy-webpack-plugin": "^0.2.0",
+    "webpack": "^2.1.0-beta.20",
+    "rxjs-es": "^5.0.0-beta.8",
+    "webpack-dev-server": "latest"
   },
   "scripts": {
     "build": "webpack",
@@ -14,8 +14,14 @@
     "start": "webpack-dev-server --hot --inline"
   },
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   },
   "author": "Axel Rauschmayer",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+  }
 }
+
+

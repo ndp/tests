@@ -22,7 +22,7 @@ module.exports = {
         loaders: [
             {
                 loader: 'babel-loader',
-                test: dir_js,
+                test: [dir_js, path.resolve(__dirname, 'node_modules/rxjs-es')],
             }
         ]
     },
