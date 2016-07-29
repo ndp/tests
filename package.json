@@ -5,7 +5,7 @@
     "babel-preset-es2015-webpack": "^6.4.0",
     "copy-webpack-plugin": "^0.2.0",
     "webpack": "^2.1.0-beta.20",
-    "rxjs-es": "^5.0.0-beta.8",
+    "rxjs-es": "^5.0.0-beta.10",
     "webpack-dev-server": "latest"
   },
   "scripts": {
